@@ -132,14 +132,6 @@ const menuItems = [
     ),
   },
   {
-    key: "beauty",
-    label: (
-      <Link to="/" className="font-bold hover:!text-white">
-        Beauty
-      </Link>
-    ),
-  },
-  {
     key: "footwear",
     label: (
       <Link to="/" className="font-bold hover:!text-white">
@@ -152,6 +144,14 @@ const menuItems = [
     label: (
       <Link to="/" className="font-bold hover:!text-white">
         Groceries
+      </Link>
+    ),
+  },
+  {
+    key: "beauty",
+    label: (
+      <Link to="/" className="font-bold hover:!text-white">
+        Beauty
       </Link>
     ),
   },
