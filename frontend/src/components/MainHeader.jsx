@@ -71,14 +71,6 @@ const menuItems = [
               </Link>
             ),
           },
-          {
-            key: "men-pents",
-            label: (
-              <Link to="/" className="font-bold hover:!text-white">
-                Pents
-              </Link>
-            ),
-          },
         ],
       },
       {
