@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.ant-drawer-header {
+  border-bottom: 1px solid #fec934 !important;
+  padding: 0.5rem !important;
+}
+
+.ant-drawer-body {
+  padding: 0.5rem !important;
+}
+
+.ant-menu-item-selected {
+  background-color: transparent !important;
+  color: #fec934 !important;
+  border-radius: 0.25rem;
+  font-weight: bold;
+}
+
+.ant-menu-submenu-title,
+.ant-menu-item {
+  font-size: 0.75rem;
+  margin-block: 0 !important;
+  max-height: 2rem !important;
+  height: 1.5rem !important;
+  line-height: 1.5rem !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.ant-menu-submenu-popup ul {
+  font-size: 0.75rem;
+  min-width: 90px !important;
+  width: 90px !important;
+  background-color: #1e293b !important;
+}
+
+.ant-menu-submenu-popup ul li {
+  height: 1.5rem !important;
+  line-height: 1.5rem !important;
+}
+
+.ant-menu-submenu-selected {
+  background-color: #fec934 !important;
+  border-radius: 0.25rem !important;
+}
+
+.ant-menu-submenu-selected span {
+  color: #000 !important;
+}
+
+.ant-menu-title-content {
+  padding: 0 !important;
+}
+
+.ant-menu-submenu-title:active {
+  background-color: #fec934 !important;
+}
+
+.ant-menu-submenu-expand-icon,
+.ant-menu-submenu-arrow {
+  color: #000 !important;
+}
