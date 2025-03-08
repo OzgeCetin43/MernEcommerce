@@ -59,7 +59,7 @@ const CategoryList = () => {
   return (
     <Row gutter={[8, 8]} className="m-4">
       {categoryList.map((item) => (
-        <Col key={item.id} xs={6} lg={3}>
+        <Col key={item.id} xs={8} lg={3}>
           <Content className="flex-none flex flex-col items-center bg-[#fafafa] hover:bg-primary p-4 rounded-md border-2 border-slate-950 gap-2 transition-all duration-500 ease-in-out cursor-pointer">
             <Image src={item.image} preview={false} className="!w-[60px]" />
             <Text className="font-bold text-xs">{item.name}</Text>
