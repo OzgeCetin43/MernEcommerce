@@ -5,6 +5,9 @@ import CategoryList from "../components/CategoryList";
 import FreeShipping from "../components/FreeShipping";
 import PopularProducts from "../components/PopularProducts";
 import DiscountBanner from "../components/DiscountBanner";
+import LatestProducts from "../components/LatestProducts";
+import FeaturedProducts from "../components/FeaturedProducts";
+import BlogSlider from "../components/BlogSlider";
 import AdsBannerCarousel from "../components/AdsBannerCarousel";
 
 const { Content } = Layout;
@@ -17,6 +20,9 @@ const Home = () => {
       <FreeShipping />
       <PopularProducts />
       <DiscountBanner />
+      <LatestProducts />
+      <FeaturedProducts />
+      <BlogSlider slidesPerView={5} />
       <AdsBannerCarousel />
     </Content>
   );
