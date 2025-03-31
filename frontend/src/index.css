@@ -92,12 +92,16 @@
   justify-content: center;
   background-color: #1e293b;
   border-radius: 50%;
-  width: 45px;
-  height: 45px;
+  width: 30px;
+  height: 30px;
 }
 
 .swiper-button-prev::after,
 .swiper-button-next::after {
   color: #fec934;
-  font-size: 1.25rem !important;
+  font-size: 1rem !important;
+}
+
+.ant-menu-item-selected::after {
+  border-bottom-color: #fec934 !important;
 }

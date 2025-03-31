@@ -3,6 +3,7 @@ import { Layout } from "antd";
 import BannerCarousel from "../components/BannerCarousel";
 import CategoryList from "../components/CategoryList";
 import FreeShipping from "../components/FreeShipping";
+import PopularProducts from "../components/PopularProducts";
 import AdsBannerCarousel from "../components/AdsBannerCarousel";
 
 const { Content } = Layout;
@@ -13,6 +14,7 @@ const Home = () => {
       <BannerCarousel />
       <CategoryList />
       <FreeShipping />
+      <PopularProducts />
       <AdsBannerCarousel />
     </Content>
   );
