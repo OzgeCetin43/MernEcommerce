@@ -1,14 +1,5 @@
 import { Row, Col, Image, Typography, Layout } from "antd";
 
-import category1 from "../assets/images/category-1.png";
-import category2 from "../assets/images/category-2.png";
-import category3 from "../assets/images/category-3.png";
-import category4 from "../assets/images/category-4.png";
-import category5 from "../assets/images/category-5.png";
-import category6 from "../assets/images/category-6.png";
-import category7 from "../assets/images/category-7.png";
-import category8 from "../assets/images/category-8.png";
-
 const { Text } = Typography;
 const { Content } = Layout;
 
@@ -16,42 +7,42 @@ const categoryList = [
   {
     id: 1,
     name: "Fashion",
-    image: category1,
+    image: "https://cdn-icons-png.flaticon.com/128/3050/3050239.png",
   },
   {
     id: 2,
     name: "Electronics",
-    image: category2,
+    image: "https://cdn-icons-png.flaticon.com/128/2278/2278984.png",
   },
   {
     id: 3,
     name: "Bags",
-    image: category3,
+    image: "https://cdn-icons-png.flaticon.com/128/3275/3275938.png",
   },
   {
     id: 4,
     name: "Footwear",
-    image: category4,
+    image: "https://cdn-icons-png.flaticon.com/128/1334/1334203.png",
   },
   {
     id: 5,
     name: "Groceries",
-    image: category5,
+    image: "https://cdn-icons-png.flaticon.com/128/3514/3514242.png",
   },
   {
     id: 6,
     name: "Beauty",
-    image: category6,
+    image: "https://cdn-icons-png.flaticon.com/128/1940/1940993.png",
   },
   {
     id: 7,
     name: "Wellness",
-    image: category7,
+    image: "https://cdn-icons-png.flaticon.com/128/4525/4525525.png",
   },
   {
     id: 8,
     name: "Jewellery",
-    image: category8,
+    image: "https://cdn-icons-png.flaticon.com/128/4259/4259798.png",
   },
 ];
 

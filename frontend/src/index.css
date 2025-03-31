@@ -84,3 +84,20 @@
 .ant-menu-submenu-arrow {
   color: #000 !important;
 }
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e293b;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: #fec934;
+  font-size: 1.25rem !important;
+}
