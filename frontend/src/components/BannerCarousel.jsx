@@ -23,6 +23,7 @@ const BannerCarousel = () => {
           alt="banner"
           preview={false}
           width="100%"
+          className="rounded-md"
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -31,6 +32,7 @@ const BannerCarousel = () => {
           alt="banner"
           preview={false}
           width="100%"
+          className="rounded-md"
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -39,6 +41,7 @@ const BannerCarousel = () => {
           alt="banner"
           preview={false}
           width="100%"
+          className="rounded-md"
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -47,6 +50,7 @@ const BannerCarousel = () => {
           alt="banner"
           preview={false}
           width="100%"
+          className="rounded-md"
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -55,6 +59,7 @@ const BannerCarousel = () => {
           alt="banner"
           preview={false}
           width="100%"
+          className="rounded-md"
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -63,6 +68,7 @@ const BannerCarousel = () => {
           alt="banner"
           preview={false}
           width="100%"
+          className="rounded-md"
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -71,6 +77,7 @@ const BannerCarousel = () => {
           alt="banner"
           preview={false}
           width="100%"
+          className="rounded-md"
         />
       </SwiperSlide>
     </Swiper>
