@@ -15,7 +15,7 @@ const BlogItem = (props) => {
         preview={false}
         className="!h-[150px] rounded-md"
       />
-      <Text className="font-bold">{props.blog.title}</Text>
+      <Text className="font-bold text-[12px]">{props.blog.title}</Text>
       <Text className="text-[10px]">
         by <Text className="font-bold text-[10px]">{props.blog.author}</Text>
       </Text>
