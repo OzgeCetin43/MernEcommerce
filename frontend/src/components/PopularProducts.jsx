@@ -50,7 +50,7 @@ const PopularProducts = () => {
   return (
     <Content className="flex flex-col gap-2">
       <Content className="flex items-center justify-between">
-        <Content className="flex flex-col w-1/2 p-2">
+        <Content className="flex flex-col w-2/5 p-2">
           <Title level={5} className="text-xs">
             Popular Products
           </Title>
@@ -58,7 +58,7 @@ const PopularProducts = () => {
             Do not miss the current offers until the end of April.
           </Text>
         </Content>
-        <Content className="flex flex-col w-1/2">
+        <Content className="flex flex-col w-3/5">
           <Menu
             selectedKeys={[activeTab]}
             mode="horizontal"

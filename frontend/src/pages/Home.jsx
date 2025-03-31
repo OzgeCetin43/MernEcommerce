@@ -4,6 +4,7 @@ import BannerCarousel from "../components/BannerCarousel";
 import CategoryList from "../components/CategoryList";
 import FreeShipping from "../components/FreeShipping";
 import PopularProducts from "../components/PopularProducts";
+import DiscountBanner from "../components/DiscountBanner";
 import AdsBannerCarousel from "../components/AdsBannerCarousel";
 
 const { Content } = Layout;
@@ -15,6 +16,7 @@ const Home = () => {
       <CategoryList />
       <FreeShipping />
       <PopularProducts />
+      <DiscountBanner />
       <AdsBannerCarousel />
     </Content>
   );

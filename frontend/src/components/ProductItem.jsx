@@ -8,7 +8,7 @@ const { Text } = Typography;
 
 const ProductItem = (props) => {
   return (
-    <Content className="flex flex-col bg-gray-900 rounded-md gap-2 p-4 relative group">
+    <Content className="flex flex-col bg-gray-200 rounded-md gap-2 p-4 relative group">
       <Image
         src={props.product.image}
         alt="product"
@@ -38,10 +38,8 @@ const ProductItem = (props) => {
           />
         </Tooltip>
       </Content>
-      <Text className="font-bold text-xs text-white">
-        {props.product.brand}
-      </Text>
-      <Link to="/" className="text-xs text-white hover:text-primary">
+      <Text className="font-bold text-xs">{props.product.brand}</Text>
+      <Link to="/" className=" font-bold text-xs hover:text-primary">
         {props.product.title}
       </Link>
       <Rate disabled defaultValue={props.product.rate} className="text-xs" />
@@ -49,7 +47,7 @@ const ProductItem = (props) => {
         <Text className="line-through text-slate-600">
           {props.product.oldPrice}
         </Text>
-        <Text className="text-primary text-[18px]">
+        <Text className="text-[18px] text-rose-600 font-bold">
           {props.product.newPrice}
         </Text>
       </Content>

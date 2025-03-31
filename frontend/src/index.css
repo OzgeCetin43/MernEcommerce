@@ -105,3 +105,11 @@
 .ant-menu-item-selected::after {
   border-bottom-color: #fec934 !important;
 }
+
+.ant-menu-vertical .ant-menu-title-content {
+  color: #fff !important;
+}
+
+.ant-rate {
+  color: #ec003f;
+}
